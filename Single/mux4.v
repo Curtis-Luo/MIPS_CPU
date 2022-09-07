@@ -1,5 +1,7 @@
 //mux:4 to 1
-module mux2(
+`include "define.v"
+
+module mux4(
     input   [31:0] pc_add4,
     input   [31:0] zero,
     input   [31:0] branch,
@@ -9,10 +11,10 @@ module mux2(
 );
     always @(*) begin
         case (sel)
-            2'b00: result = pc_add4;
-            2'b01: result = zero;
-            2'b10: result = branch;
-            2'b11: result = pc_jump;
+            `NextIns: result = pc_add4;
+            `Jump: result = pc_jump;
+            `Branch: result = branch;
+            `Zero: result = zero;
             default: result = pc_add4;
         endcase
     end
