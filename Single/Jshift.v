@@ -1,6 +1,6 @@
 //shift combination
 module Jshift(
-    input   [31:0] inst,
+    input   [25:0] inst,
     input   [31:0] pc_add4,
     output  [31:0] sh
     ); 
