@@ -32,8 +32,8 @@
 
 // PCSrc
 `define NextIns 2'b00
-`define Jump 2'b01 //relative jump
-`define Branch 2'b10 //absolute jump
+`define Jump 2'b01 
+`define Branch 2'b10 
 `define Zero 2'b11 
 
 // for instruction
