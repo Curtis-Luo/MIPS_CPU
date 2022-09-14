@@ -1,0 +1,200 @@
+E:/MIPS_CPU/Pipeline/ALU.v {1 {vlog -work work -vopt -stats=none E:/MIPS_CPU/Pipeline/ALU.v
+QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+-- Compiling module ALU
+
+Top level modules:
+	ALU
+
+} {} {}} E:/MIPS_CPU/Pipeline/mux3Forward.v {1 {vlog -work work -vopt -stats=none E:/MIPS_CPU/Pipeline/mux3Forward.v
+QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+-- Compiling module mux3Forward
+
+Top level modules:
+	mux3Forward
+
+} {} {}} E:/MIPS_CPU/Pipeline/IF_ID.v {1 {vlog -work work -vopt -stats=none E:/MIPS_CPU/Pipeline/IF_ID.v
+QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+-- Compiling module IF_ID
+
+Top level modules:
+	IF_ID
+
+} {} {}} E:/MIPS_CPU/Pipeline/PC.v {1 {vlog -work work -vopt -stats=none E:/MIPS_CPU/Pipeline/PC.v
+QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+-- Compiling module PC
+
+Top level modules:
+	PC
+
+} {} {}} E:/MIPS_CPU/Pipeline/EX_MEM.v {1 {vlog -work work -vopt -stats=none E:/MIPS_CPU/Pipeline/EX_MEM.v
+QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+-- Compiling module EX_MEM
+
+Top level modules:
+	EX_MEM
+
+} {} {}} E:/MIPS_CPU/Pipeline/PCAdd.v {1 {vlog -work work -vopt -stats=none E:/MIPS_CPU/Pipeline/PCAdd.v
+QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+-- Compiling module PCAdd
+
+Top level modules:
+	PCAdd
+
+} {} {}} E:/MIPS_CPU/Pipeline/mux2.v {1 {vlog -work work -vopt -stats=none E:/MIPS_CPU/Pipeline/mux2.v
+QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+-- Compiling module mux2
+
+Top level modules:
+	mux2
+
+} {} {}} E:/MIPS_CPU/Pipeline/instMEM.v {1 {vlog -work work -vopt -stats=none E:/MIPS_CPU/Pipeline/instMEM.v
+QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+-- Compiling module instMEM
+
+Top level modules:
+	instMEM
+
+} {} {}} E:/MIPS_CPU/Pipeline/mux4.v {1 {vlog -work work -vopt -stats=none E:/MIPS_CPU/Pipeline/mux4.v
+QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+-- Compiling module mux4
+
+Top level modules:
+	mux4
+
+} {} {}} E:/MIPS_CPU/Pipeline/RegFile.v {1 {vlog -work work -vopt -stats=none E:/MIPS_CPU/Pipeline/RegFile.v
+QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+-- Compiling module RegFile
+
+Top level modules:
+	RegFile
+
+} {} {}} E:/MIPS_CPU/Pipeline/Conunit.v {1 {vlog -work work -vopt -stats=none E:/MIPS_CPU/Pipeline/Conunit.v
+QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+-- Compiling module Conunit
+
+Top level modules:
+	Conunit
+
+} {} {}} E:/MIPS_CPU/Pipeline/PC_branch.v {1 {vlog -work work -vopt -stats=none E:/MIPS_CPU/Pipeline/PC_branch.v
+QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+-- Compiling module PC_branch
+
+Top level modules:
+	PC_branch
+
+} {} {}} E:/MIPS_CPU/Pipeline/Jshift.v {1 {vlog -work work -vopt -stats=none E:/MIPS_CPU/Pipeline/Jshift.v
+QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+-- Compiling module Jshift
+
+Top level modules:
+	Jshift
+
+} {} {}} E:/MIPS_CPU/Pipeline/mux2Forward.v {1 {vlog -work work -vopt -stats=none E:/MIPS_CPU/Pipeline/mux2Forward.v
+QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+-- Compiling module mux2Forward
+
+Top level modules:
+	mux2Forward
+
+} {} {}} E:/MIPS_CPU/Pipeline/mux2x32.v {1 {vlog -work work -vopt -stats=none E:/MIPS_CPU/Pipeline/mux2x32.v
+QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+-- Compiling module mux2x32
+
+Top level modules:
+	mux2x32
+
+} {} {}} E:/MIPS_CPU/Pipeline/HazardUnit.v {1 {vlog -work work -vopt -stats=none E:/MIPS_CPU/Pipeline/HazardUnit.v
+QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+-- Compiling module HazardUnit
+
+Top level modules:
+	HazardUnit
+
+} {} {}} E:/MIPS_CPU/Pipeline/test/PipelineCPU_tb.v {1 {vlog -work work -vopt -stats=none E:/MIPS_CPU/Pipeline/test/PipelineCPU_tb.v
+QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+-- Compiling module PipelineCPU_tb
+
+Top level modules:
+	PipelineCPU_tb
+
+} {} {}} E:/MIPS_CPU/Pipeline/SignExt.v {1 {vlog -work work -vopt -stats=none E:/MIPS_CPU/Pipeline/SignExt.v
+QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+-- Compiling module signExt
+
+Top level modules:
+	signExt
+
+} {} {}} E:/MIPS_CPU/Pipeline/Lshift.v {1 {vlog -work work -vopt -stats=none E:/MIPS_CPU/Pipeline/Lshift.v
+QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+-- Compiling module Lshift
+
+Top level modules:
+	Lshift
+
+} {} {}} E:/MIPS_CPU/Pipeline/define.v {1 {vlog -work work -vopt -stats=none E:/MIPS_CPU/Pipeline/define.v
+QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+
+} {} {}} E:/MIPS_CPU/Pipeline/PipelineCPU.v {1 {vlog -work work -vopt -stats=none E:/MIPS_CPU/Pipeline/PipelineCPU.v
+QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+-- Compiling module PipelineCPU
+
+Top level modules:
+	PipelineCPU
+
+} {} {}} E:/MIPS_CPU/Pipeline/decoder.v {1 {vlog -work work -vopt -stats=none E:/MIPS_CPU/Pipeline/decoder.v
+QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+-- Compiling module decoder
+
+Top level modules:
+	decoder
+
+} {} {}} E:/MIPS_CPU/Pipeline/MEM_WB.v {1 {vlog -work work -vopt -stats=none E:/MIPS_CPU/Pipeline/MEM_WB.v
+QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+-- Compiling module MEM_WB
+
+Top level modules:
+	MEM_WB
+
+} {} {}} E:/MIPS_CPU/Pipeline/Extend.v {1 {vlog -work work -vopt -stats=none E:/MIPS_CPU/Pipeline/Extend.v
+QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+-- Compiling module Extend
+
+Top level modules:
+	Extend
+
+} {} {}} E:/MIPS_CPU/Pipeline/noop_reg.v {1 {vlog -work work -vopt -stats=none E:/MIPS_CPU/Pipeline/noop_reg.v
+QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+-- Compiling module noop_reg
+
+Top level modules:
+	noop_reg
+
+} {} {}} E:/MIPS_CPU/Pipeline/BranchPredict.v {1 {vlog -work work -vopt -stats=none E:/MIPS_CPU/Pipeline/BranchPredict.v
+QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+-- Compiling module BranchPredict
+
+Top level modules:
+	BranchPredict
+
+} {} {}} E:/MIPS_CPU/Pipeline/ZeroExt.v {1 {vlog -work work -vopt -stats=none E:/MIPS_CPU/Pipeline/ZeroExt.v
+QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+-- Compiling module ZeroExt
+
+Top level modules:
+	ZeroExt
+
+} {} {}} E:/MIPS_CPU/Pipeline/dataMEM.v {1 {vlog -work work -vopt -stats=none E:/MIPS_CPU/Pipeline/dataMEM.v
+QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+-- Compiling module dataMEM
+
+Top level modules:
+	dataMEM
+
+} {} {}} E:/MIPS_CPU/Pipeline/ID_EX.v {1 {vlog -work work -vopt -stats=none E:/MIPS_CPU/Pipeline/ID_EX.v
+QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+-- Compiling module ID_EX
+
+Top level modules:
+	ID_EX
+
+} {} {}}

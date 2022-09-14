@@ -1,0 +1,687 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/Questasim/examples
+vALU
+Z0 !s110 1663144498
+!i10b 1
+!s100 9dh07_7=dY`RdeGmH9kS^2
+IifHcXAi_dKcFU;TPzLGY10
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dE:/MIPS_CPU/Pipeline
+w1663044257
+8E:/MIPS_CPU/Pipeline/ALU.v
+FE:/MIPS_CPU/Pipeline/ALU.v
+L0 6
+Z3 OL;L;10.6c;65
+r1
+!s85 0
+31
+Z4 !s108 1663144498.000000
+!s107 define.v|E:/MIPS_CPU/Pipeline/ALU.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|E:/MIPS_CPU/Pipeline/ALU.v|
+!i113 0
+Z5 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z6 tCvgOpt 0
+n@a@l@u
+vBranchPredict
+R0
+!i10b 1
+!s100 ^VJ?7@a7NGa`m@D7`Y:BU2
+IQ?43MB9@ZDJ06YY`GN@<D2
+R1
+R2
+w1663044444
+8E:/MIPS_CPU/Pipeline/BranchPredict.v
+FE:/MIPS_CPU/Pipeline/BranchPredict.v
+L0 4
+R3
+r1
+!s85 0
+31
+R4
+!s107 define.v|E:/MIPS_CPU/Pipeline/BranchPredict.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|E:/MIPS_CPU/Pipeline/BranchPredict.v|
+!i113 0
+R5
+R6
+n@branch@predict
+vConunit
+R0
+!i10b 1
+!s100 T=QJAgDWoaVEFg^aFGMB;1
+Iz^;<29_an`:mQNGViDElW2
+R1
+R2
+w1663142742
+8E:/MIPS_CPU/Pipeline/Conunit.v
+FE:/MIPS_CPU/Pipeline/Conunit.v
+L0 4
+R3
+r1
+!s85 0
+31
+R4
+!s107 define.v|E:/MIPS_CPU/Pipeline/Conunit.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|E:/MIPS_CPU/Pipeline/Conunit.v|
+!i113 0
+R5
+R6
+n@conunit
+vdataMEM
+R0
+!i10b 1
+!s100 [1Tf[eonV@TPT=QhUA14k0
+ITfEjTHgL4k55gHdka^zOI1
+R1
+R2
+w1662882876
+8E:/MIPS_CPU/Pipeline/dataMEM.v
+FE:/MIPS_CPU/Pipeline/dataMEM.v
+L0 2
+R3
+r1
+!s85 0
+31
+R4
+!s107 E:/MIPS_CPU/Pipeline/dataMEM.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|E:/MIPS_CPU/Pipeline/dataMEM.v|
+!i113 0
+R5
+R6
+ndata@m@e@m
+vdecoder
+R0
+!i10b 1
+!s100 T6c7H7<Zo3Y8D2U_KcK>c2
+IOL<Mfi`=`LGRk52gid>a81
+R1
+R2
+w1662478837
+8E:/MIPS_CPU/Pipeline/decoder.v
+FE:/MIPS_CPU/Pipeline/decoder.v
+L0 4
+R3
+r1
+!s85 0
+31
+R4
+!s107 define.v|E:/MIPS_CPU/Pipeline/decoder.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|E:/MIPS_CPU/Pipeline/decoder.v|
+!i113 0
+R5
+R6
+vEX_MEM
+R0
+!i10b 1
+!s100 <j;1bDbNEBV06kGTN^_iN3
+I>dgH36Rlo_`Z>3Y@lifQ>0
+R1
+R2
+w1663130048
+8E:/MIPS_CPU/Pipeline/EX_MEM.v
+FE:/MIPS_CPU/Pipeline/EX_MEM.v
+L0 3
+R3
+r1
+!s85 0
+31
+R4
+!s107 E:/MIPS_CPU/Pipeline/EX_MEM.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|E:/MIPS_CPU/Pipeline/EX_MEM.v|
+!i113 0
+R5
+R6
+n@e@x_@m@e@m
+vExtend
+R0
+!i10b 1
+!s100 I?kT1e2>P4bCUCjgdFgCT3
+Iki^jg_dDaleAXB]_`G<cZ2
+R1
+R2
+w1662563738
+8E:/MIPS_CPU/Pipeline/Extend.v
+FE:/MIPS_CPU/Pipeline/Extend.v
+L0 3
+R3
+r1
+!s85 0
+31
+R4
+!s107 E:/MIPS_CPU/Pipeline/Extend.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|E:/MIPS_CPU/Pipeline/Extend.v|
+!i113 0
+R5
+R6
+n@extend
+vForward
+R0
+!i10b 1
+!s100 Dgj:Ni1?@9217LYDTBcPl1
+IX2VIkbT]LgecOVARlG_b]0
+R1
+R2
+w1663086667
+8E:/MIPS_CPU/Pipeline/Forward.v
+FE:/MIPS_CPU/Pipeline/Forward.v
+L0 4
+R3
+r1
+!s85 0
+31
+R4
+!s107 define.v|E:/MIPS_CPU/Pipeline/Forward.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|E:/MIPS_CPU/Pipeline/Forward.v|
+!i113 0
+R5
+R6
+n@forward
+vHazardUnit
+R0
+!i10b 1
+!s100 @bIO?8hN?F80MOO[czH;V2
+I:^:4SYZRe]iEGFoOhLE242
+R1
+R2
+w1663084575
+8E:/MIPS_CPU/Pipeline/HazardUnit.v
+FE:/MIPS_CPU/Pipeline/HazardUnit.v
+L0 3
+R3
+r1
+!s85 0
+31
+R4
+!s107 E:/MIPS_CPU/Pipeline/HazardUnit.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|E:/MIPS_CPU/Pipeline/HazardUnit.v|
+!i113 0
+R5
+R6
+n@hazard@unit
+vID_EX
+R0
+!i10b 1
+!s100 jlOViT1G>QFgY0YFcB8^d1
+I:D@h_RndAD4Do60EYE]Pj2
+R1
+R2
+w1663129587
+8E:/MIPS_CPU/Pipeline/ID_EX.v
+FE:/MIPS_CPU/Pipeline/ID_EX.v
+L0 3
+R3
+r1
+!s85 0
+31
+R4
+!s107 E:/MIPS_CPU/Pipeline/ID_EX.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|E:/MIPS_CPU/Pipeline/ID_EX.v|
+!i113 0
+R5
+R6
+n@i@d_@e@x
+vIF_ID
+R0
+!i10b 1
+!s100 7F98`JlD@^K4Qlkl2UDQG3
+I_R=zbIVaEcm]]72_FhR[@0
+R1
+R2
+w1663141891
+8E:/MIPS_CPU/Pipeline/IF_ID.v
+FE:/MIPS_CPU/Pipeline/IF_ID.v
+L0 3
+R3
+r1
+!s85 0
+31
+R4
+!s107 E:/MIPS_CPU/Pipeline/IF_ID.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|E:/MIPS_CPU/Pipeline/IF_ID.v|
+!i113 0
+R5
+R6
+n@i@f_@i@d
+vinstMEM
+R0
+!i10b 1
+!s100 S6ZE0VESL_a>VEIiV?FM61
+IcFiUH>m^9QJ`06@>IAA8X0
+R1
+R2
+w1662806940
+8E:/MIPS_CPU/Pipeline/instMEM.v
+FE:/MIPS_CPU/Pipeline/instMEM.v
+L0 6
+R3
+r1
+!s85 0
+31
+R4
+!s107 E:/MIPS_CPU/Pipeline/instMEM.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|E:/MIPS_CPU/Pipeline/instMEM.v|
+!i113 0
+R5
+R6
+ninst@m@e@m
+vJshift
+R0
+!i10b 1
+!s100 P0Y40NC8JShU77@miSiVT0
+I7QHfeA7bLNjiQ2Td0Y0]J3
+R1
+R2
+w1662563946
+8E:/MIPS_CPU/Pipeline/Jshift.v
+FE:/MIPS_CPU/Pipeline/Jshift.v
+L0 2
+R3
+r1
+!s85 0
+31
+R4
+!s107 E:/MIPS_CPU/Pipeline/Jshift.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|E:/MIPS_CPU/Pipeline/Jshift.v|
+!i113 0
+R5
+R6
+n@jshift
+vLshift
+R0
+!i10b 1
+!s100 3`1zDIggY10bKDJlO1nzd1
+IGVKVF2U1SOa8A[`d=>;KO3
+R1
+R2
+w1661950404
+8E:/MIPS_CPU/Pipeline/Lshift.v
+FE:/MIPS_CPU/Pipeline/Lshift.v
+L0 2
+R3
+r1
+!s85 0
+31
+R4
+!s107 E:/MIPS_CPU/Pipeline/Lshift.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|E:/MIPS_CPU/Pipeline/Lshift.v|
+!i113 0
+R5
+R6
+n@lshift
+vMEM_WB
+R0
+!i10b 1
+!s100 3a0n[3QkG4dBB=F0=dES03
+Id[0428eR_ImeKC[]_maDi2
+R1
+R2
+w1663130240
+8E:/MIPS_CPU/Pipeline/MEM_WB.v
+FE:/MIPS_CPU/Pipeline/MEM_WB.v
+L0 4
+R3
+r1
+!s85 0
+31
+R4
+!s107 E:/MIPS_CPU/Pipeline/MEM_WB.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|E:/MIPS_CPU/Pipeline/MEM_WB.v|
+!i113 0
+R5
+R6
+n@m@e@m_@w@b
+vmux2
+Z7 !s110 1663144499
+!i10b 1
+!s100 VLnk_5Z3NUIjolZIBBoY62
+ILD;9jiJK?S>hRnhOBELf53
+R1
+R2
+w1662652384
+8E:/MIPS_CPU/Pipeline/mux2.v
+FE:/MIPS_CPU/Pipeline/mux2.v
+L0 3
+R3
+r1
+!s85 0
+31
+R4
+!s107 define.v|E:/MIPS_CPU/Pipeline/mux2.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|E:/MIPS_CPU/Pipeline/mux2.v|
+!i113 0
+R5
+R6
+vmux2Forward
+R7
+!i10b 1
+!s100 TXnP32=bRbS@=_z8hHPCD1
+IRhSnDM[Z88m58fe[ceQ8J2
+R1
+R2
+w1663075303
+8E:/MIPS_CPU/Pipeline/mux2Forward.v
+FE:/MIPS_CPU/Pipeline/mux2Forward.v
+L0 4
+R3
+r1
+!s85 0
+31
+Z8 !s108 1663144499.000000
+!s107 define.v|E:/MIPS_CPU/Pipeline/mux2Forward.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|E:/MIPS_CPU/Pipeline/mux2Forward.v|
+!i113 0
+R5
+R6
+nmux2@forward
+vmux2x32
+R7
+!i10b 1
+!s100 IaT9Z`]mY:UG`U5ISNlIm2
+IJ<;QKU1emK4hgD>fh?Z1U1
+R1
+R2
+w1662134065
+8E:/MIPS_CPU/Pipeline/mux2x32.v
+FE:/MIPS_CPU/Pipeline/mux2x32.v
+L0 3
+R3
+r1
+!s85 0
+31
+R8
+!s107 E:/MIPS_CPU/Pipeline/mux2x32.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|E:/MIPS_CPU/Pipeline/mux2x32.v|
+!i113 0
+R5
+R6
+vmux3Forward
+R7
+!i10b 1
+!s100 ]4eZJ=4T;M2^OkS`Flj[I2
+I8lG:K=FWblXHoznIM7z]P3
+R1
+R2
+w1662989952
+8E:/MIPS_CPU/Pipeline/mux3Forward.v
+FE:/MIPS_CPU/Pipeline/mux3Forward.v
+L0 4
+R3
+r1
+!s85 0
+31
+R8
+!s107 define.v|E:/MIPS_CPU/Pipeline/mux3Forward.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|E:/MIPS_CPU/Pipeline/mux3Forward.v|
+!i113 0
+R5
+R6
+nmux3@forward
+vmux4
+R7
+!i10b 1
+!s100 NLGHFiH_Z46NE1_Cf>Wdi1
+IcSeEMBN^dG;9j]OK0h`J<1
+R1
+R2
+w1663143112
+8E:/MIPS_CPU/Pipeline/mux4.v
+FE:/MIPS_CPU/Pipeline/mux4.v
+L0 4
+R3
+r1
+!s85 0
+31
+R8
+!s107 define.v|E:/MIPS_CPU/Pipeline/mux4.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|E:/MIPS_CPU/Pipeline/mux4.v|
+!i113 0
+R5
+R6
+vnoop_reg
+R7
+!i10b 1
+!s100 ^`j?m[0h@cDKVlkBH5d9W2
+IYn9D_O9?H7>`T1aTok0Pf1
+R1
+R2
+w1663142868
+8E:/MIPS_CPU/Pipeline/noop_reg.v
+FE:/MIPS_CPU/Pipeline/noop_reg.v
+L0 3
+R3
+r1
+!s85 0
+31
+R8
+!s107 E:/MIPS_CPU/Pipeline/noop_reg.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|E:/MIPS_CPU/Pipeline/noop_reg.v|
+!i113 0
+R5
+R6
+vPC
+R7
+!i10b 1
+!s100 2B?6IcZ]P:zZAM]3GEe:D0
+I:5FBI?3H3OA?_=k]^OYE80
+R1
+R2
+w1663136958
+8E:/MIPS_CPU/Pipeline/PC.v
+FE:/MIPS_CPU/Pipeline/PC.v
+L0 4
+R3
+r1
+!s85 0
+31
+R8
+!s107 E:/MIPS_CPU/Pipeline/PC.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|E:/MIPS_CPU/Pipeline/PC.v|
+!i113 0
+R5
+R6
+n@p@c
+vPC_branch
+R7
+!i10b 1
+!s100 ;akXYTCL_44Ufc8=PBG5K3
+IDlJ7:=4;@kFLZ@i07C_Wb1
+R1
+R2
+w1662553603
+8E:/MIPS_CPU/Pipeline/PC_branch.v
+FE:/MIPS_CPU/Pipeline/PC_branch.v
+L0 3
+R3
+r1
+!s85 0
+31
+R8
+!s107 E:/MIPS_CPU/Pipeline/PC_branch.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|E:/MIPS_CPU/Pipeline/PC_branch.v|
+!i113 0
+R5
+R6
+n@p@c_branch
+vPCAdd
+R7
+!i10b 1
+!s100 eXJdH2PP6IJ=k^gU16lc?3
+I50b<K^HbS1oS<Z=KM;PcL0
+R1
+R2
+w1662301968
+8E:/MIPS_CPU/Pipeline/PCAdd.v
+FE:/MIPS_CPU/Pipeline/PCAdd.v
+L0 4
+R3
+r1
+!s85 0
+31
+R8
+!s107 E:/MIPS_CPU/Pipeline/PCAdd.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|E:/MIPS_CPU/Pipeline/PCAdd.v|
+!i113 0
+R5
+R6
+n@p@c@add
+vPipelineCPU
+R7
+!i10b 1
+!s100 6E?iln6k1eK?TeX]Fd6d22
+InJ`Y0K@BXSF5nlWQ1<G]<0
+R1
+R2
+w1663144313
+8E:/MIPS_CPU/Pipeline/PipelineCPU.v
+FE:/MIPS_CPU/Pipeline/PipelineCPU.v
+L0 4
+R3
+r1
+!s85 0
+31
+R8
+!s107 define.v|E:/MIPS_CPU/Pipeline/PipelineCPU.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|E:/MIPS_CPU/Pipeline/PipelineCPU.v|
+!i113 0
+R5
+R6
+n@pipeline@c@p@u
+vPipelineCPU_tb
+R7
+!i10b 1
+!s100 16TWD=:NCm5R;aLUnbe[G0
+IRZ:Gj;OYOiF8O8Q::dGUG0
+R1
+R2
+w1663083470
+8E:/MIPS_CPU/Pipeline/test/PipelineCPU_tb.v
+FE:/MIPS_CPU/Pipeline/test/PipelineCPU_tb.v
+L0 44
+R3
+r1
+!s85 0
+31
+R8
+!s107 E:/MIPS_CPU/Pipeline/test/PipelineCPU_tb.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|E:/MIPS_CPU/Pipeline/test/PipelineCPU_tb.v|
+!i113 0
+R5
+R6
+n@pipeline@c@p@u_tb
+vRegFile
+R7
+!i10b 1
+!s100 5Pich[RJUE<0Zj87>TN>_0
+IzPczf8@iM56e8o<lRU?c10
+R1
+R2
+w1662796169
+8E:/MIPS_CPU/Pipeline/RegFile.v
+FE:/MIPS_CPU/Pipeline/RegFile.v
+L0 3
+R3
+r1
+!s85 0
+31
+R8
+!s107 E:/MIPS_CPU/Pipeline/RegFile.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|E:/MIPS_CPU/Pipeline/RegFile.v|
+!i113 0
+R5
+R6
+n@reg@file
+vsignExt
+R7
+!i10b 1
+!s100 TKOC@V3bFN2ofl5?d0kFM0
+IhPmkm>CcZ<4@6WE59E1oY3
+R1
+R2
+w1661954596
+8E:/MIPS_CPU/Pipeline/SignExt.v
+FE:/MIPS_CPU/Pipeline/SignExt.v
+L0 2
+R3
+r1
+!s85 0
+31
+R8
+!s107 E:/MIPS_CPU/Pipeline/SignExt.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|E:/MIPS_CPU/Pipeline/SignExt.v|
+!i113 0
+R5
+R6
+nsign@ext
+vSingleCycleCPU
+!s110 1663066371
+!i10b 1
+!s100 b:Glfg7CSBP_4zg4gfIlM2
+I`ZkBSWhLZS1XWR_@]aHT93
+R1
+R2
+w1662806485
+8E:/MIPS_CPU/Pipeline/SingleCycleCPU.v
+FE:/MIPS_CPU/Pipeline/SingleCycleCPU.v
+L0 4
+R3
+r1
+!s85 0
+31
+!s108 1663066371.000000
+!s107 define.v|E:/MIPS_CPU/Pipeline/SingleCycleCPU.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|E:/MIPS_CPU/Pipeline/SingleCycleCPU.v|
+!i113 0
+R5
+R6
+n@single@cycle@c@p@u
+vStall
+R7
+!i10b 1
+!s100 0O1fUK@fOTdM5khZ98kNI0
+I@;J>1m5H@XNC_UcFjoN001
+R1
+R2
+w1663122557
+8E:/MIPS_CPU/Pipeline/Stall.v
+FE:/MIPS_CPU/Pipeline/Stall.v
+L0 15
+R3
+r1
+!s85 0
+31
+R8
+!s107 define.v|E:/MIPS_CPU/Pipeline/Stall.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|E:/MIPS_CPU/Pipeline/Stall.v|
+!i113 0
+R5
+R6
+n@stall
+vZeroExt
+R7
+!i10b 1
+!s100 Q76iZ6XR?0UJf4:4DAoJ53
+ISkiZe;[QN@NQ;CTH4QW8J1
+R1
+R2
+w1662806090
+8E:/MIPS_CPU/Pipeline/ZeroExt.v
+FE:/MIPS_CPU/Pipeline/ZeroExt.v
+L0 2
+R3
+r1
+!s85 0
+31
+R8
+!s107 E:/MIPS_CPU/Pipeline/ZeroExt.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|E:/MIPS_CPU/Pipeline/ZeroExt.v|
+!i113 0
+R5
+R6
+n@zero@ext
