@@ -1,0 +1,137 @@
+E:/MIPS_CPU/A_Single/mux4.v {1 {vlog -work work -vopt -stats=none E:/MIPS_CPU/A_Single/mux4.v
+QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+-- Compiling module mux4
+
+Top level modules:
+	mux4
+
+} {} {}} E:/MIPS_CPU/A_Single/RegFile.v {1 {vlog -work work -vopt -stats=none E:/MIPS_CPU/A_Single/RegFile.v
+QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+-- Compiling module RegFile
+
+Top level modules:
+	RegFile
+
+} {} {}} E:/MIPS_CPU/A_Single/Conunit.v {1 {vlog -work work -vopt -stats=none E:/MIPS_CPU/A_Single/Conunit.v
+QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+-- Compiling module Conunit
+
+Top level modules:
+	Conunit
+
+} {} {}} E:/MIPS_CPU/A_Single/Jshift.v {1 {vlog -work work -vopt -stats=none E:/MIPS_CPU/A_Single/Jshift.v
+QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+-- Compiling module Jshift
+
+Top level modules:
+	Jshift
+
+} {} {}} E:/MIPS_CPU/A_Single/PC_branch.v {1 {vlog -work work -vopt -stats=none E:/MIPS_CPU/A_Single/PC_branch.v
+QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+-- Compiling module PC_branch
+
+Top level modules:
+	PC_branch
+
+} {} {}} E:/MIPS_CPU/A_Single/mux2x32.v {1 {vlog -work work -vopt -stats=none E:/MIPS_CPU/A_Single/mux2x32.v
+QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+-- Compiling module mux2x32
+
+Top level modules:
+	mux2x32
+
+} {} {}} E:/MIPS_CPU/A_Single/SingleCycleCPU.v {1 {vlog -work work -vopt -stats=none E:/MIPS_CPU/A_Single/SingleCycleCPU.v
+QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+-- Compiling module SingleCycleCPU
+
+Top level modules:
+	SingleCycleCPU
+
+} {} {}} E:/MIPS_CPU/A_Single/SignExt.v {1 {vlog -work work -vopt -stats=none E:/MIPS_CPU/A_Single/SignExt.v
+QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+-- Compiling module signExt
+
+Top level modules:
+	signExt
+
+} {} {}} E:/MIPS_CPU/A_Single/Lshift.v {1 {vlog -work work -vopt -stats=none E:/MIPS_CPU/A_Single/Lshift.v
+QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+-- Compiling module Lshift
+
+Top level modules:
+	Lshift
+
+} {} {}} E:/MIPS_CPU/A_Single/define.v {1 {vlog -work work -vopt -stats=none E:/MIPS_CPU/A_Single/define.v
+QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+
+} {} {}} E:/MIPS_CPU/A_Single/test/SingleCycleCPU_tb.v {1 {vlog -work work -vopt -stats=none E:/MIPS_CPU/A_Single/test/SingleCycleCPU_tb.v
+QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+-- Compiling module SingleCycleCPU_tb
+
+Top level modules:
+	SingleCycleCPU_tb
+
+} {} {}} E:/MIPS_CPU/A_Single/decoder.v {1 {vlog -work work -vopt -stats=none E:/MIPS_CPU/A_Single/decoder.v
+QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+-- Compiling module decoder
+
+Top level modules:
+	decoder
+
+} {} {}} E:/MIPS_CPU/A_Single/Extend.v {1 {vlog -work work -vopt -stats=none E:/MIPS_CPU/A_Single/Extend.v
+QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+-- Compiling module Extend
+
+Top level modules:
+	Extend
+
+} {} {}} E:/MIPS_CPU/A_Single/dataMEM.v {1 {vlog -work work -vopt -stats=none E:/MIPS_CPU/A_Single/dataMEM.v
+QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+-- Compiling module dataMEM
+
+Top level modules:
+	dataMEM
+
+} {} {}} E:/MIPS_CPU/A_Single/ZeroExt.v {1 {vlog -work work -vopt -stats=none E:/MIPS_CPU/A_Single/ZeroExt.v
+QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+-- Compiling module ZeroExt
+
+Top level modules:
+	ZeroExt
+
+} {} {}} E:/MIPS_CPU/A_Single/ALU.v {1 {vlog -work work -vopt -stats=none E:/MIPS_CPU/A_Single/ALU.v
+QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+-- Compiling module ALU
+
+Top level modules:
+	ALU
+
+} {} {}} E:/MIPS_CPU/A_Single/PC.v {1 {vlog -work work -vopt -stats=none E:/MIPS_CPU/A_Single/PC.v
+QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+-- Compiling module PC
+
+Top level modules:
+	PC
+
+} {} {}} E:/MIPS_CPU/A_Single/mux2.v {1 {vlog -work work -vopt -stats=none E:/MIPS_CPU/A_Single/mux2.v
+QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+-- Compiling module mux2
+
+Top level modules:
+	mux2
+
+} {} {}} E:/MIPS_CPU/A_Single/PCAdd.v {1 {vlog -work work -vopt -stats=none E:/MIPS_CPU/A_Single/PCAdd.v
+QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+-- Compiling module PCAdd
+
+Top level modules:
+	PCAdd
+
+} {} {}} E:/MIPS_CPU/A_Single/instMEM.v {1 {vlog -work work -vopt -stats=none E:/MIPS_CPU/A_Single/instMEM.v
+QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+-- Compiling module instMEM
+
+Top level modules:
+	instMEM
+
+} {} {}}
