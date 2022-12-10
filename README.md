@@ -13,8 +13,8 @@ Document Structure:
 ----RTL codes(*.v)  
 ----Arch,Instruction_Test(*.vsdx,*.pdf,*.xlsx)  
 
-A MIPS CPU that supports 36 MIPS instructions. You can find the documentation for specific instructions test just clicking the link: https://github.com/Curtis-Luo/MIPS_CPU/blob/main/Pipeline/Instruction%20Test.pdf  
-Firstly, I completed a single-cycle MIPS CPU that can work correctly.  
-A single-cycle mips cpu: https://github.com/Curtis-Luo/MIPS_CPU/tree/main/Single.  
-Then based on the single-cycle MIPS CPU, I completed the multi-cycle pipelined MIPS CPU.  
-A classic 5-stage pipeline mips cpu: https://github.com/Curtis-Luo/MIPS_CPU/tree/main/Pipeline.  
+[Instruction test](https://github.com/LStrying/MIPS_CPU/blob/main/Pipeline/Instruction%20Test.pdf)  
+[Arch_Single](https://github.com/LStrying/MIPS_CPU/blob/main/Single/Arch_Single.pdf)  
+[Arch_Pipeline](https://github.com/LStrying/MIPS_CPU/blob/main/Pipeline/Arch_Pipeline.pdf)  
+
+
