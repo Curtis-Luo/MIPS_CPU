@@ -1,7 +1,7 @@
 # MIPS_CPU
 [MIPS](https://en.wikipedia.org/wiki/MIPS_architecture) (Microprocessor without Interlocked Pipelined Stages) is a family of reduced instruction set computer (RISC) instruction set architectures (ISA) developed by MIPS Computer Systems, now MIPS Technologies, based in the United States.  
 
-In the course of Computer Processors, I implemented a 32-bit MIPS CPU supporting 36 instructions.  
+In the course of Computer Processors and Systems, I implemented a 32-bit MIPS CPU supporting 36 instructions.  
 
 Document Structure:  
 --Single  
